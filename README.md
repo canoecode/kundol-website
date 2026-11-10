@@ -38,7 +38,7 @@ Then open http://localhost:8000. A project can be linked directly, for example `
 
 ## Before publishing
 
-- `og:image` is a relative path. Make it a full URL once the domain is known, and add a `CNAME` file for a custom domain.
+- `og:image` is the 1200×630 title card at `assets/img/og-image.jpg`, linked by its full URL on kundoltangruthaiwanich.com.
 - The contact email is `kundol.tang@gmail.com`. Change it in the profile and Contact section if you want a different address public.
 
 ## Photos
