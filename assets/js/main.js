@@ -14,7 +14,7 @@
   const THEME_KEY = 'kt-theme';
   const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
   const themeBtns = $$('[data-theme-toggle]');
-  const activeTheme = () => root.dataset.theme || (darkQuery.matches ? 'dark' : 'light');
+  const activeTheme = () => root.dataset.theme || 'light';
   const labelTheme = () => themeBtns.forEach((b) => b.setAttribute('aria-label', activeTheme() === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'));
   const toggleTheme = () => {
     const next = activeTheme() === 'dark' ? 'light' : 'dark';

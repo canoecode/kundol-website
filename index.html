@@ -6,8 +6,7 @@
   <title>Kundol Tangruthaiwanich</title>
   <meta name="description" content="Kundol (Canoe) Tangruthaiwanich: founder of MedLink Pathways, lead engineer of Pulma and EpivaScan, and a Thailand national team debater. Bangkok, Class of 2027.">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#0E3B36" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0C2421" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#0E3B36">
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Kundol Tangruthaiwanich">
   <meta property="og:description" content="Founder of MedLink Pathways, lead engineer of Pulma and EpivaScan, and a Thailand national team debater.">
@@ -21,7 +20,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600&family=Noto+Sans+Thai:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,600&display=swap">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script>
-    (function () { try { var t = localStorage.getItem('kt-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {} })();
+    (function () { var d = document.documentElement; d.dataset.theme = 'light'; try { var t = localStorage.getItem('kt-theme'); if (t === 'light' || t === 'dark') d.dataset.theme = t; } catch (e) {} })();
   </script>
   <script src="assets/js/main.js" defer></script>
 </head>
